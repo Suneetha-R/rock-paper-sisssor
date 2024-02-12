@@ -1,0 +1,156 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #223a5f;
+  padding: 20px;
+  width: 100vw;
+  height: 120vh;
+}
+
+.popup-button {
+  width: 60px;
+  height: 28px;
+  padding: 10px;
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.rules-container {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .rules-container {
+    margin-bottom: 40px;
+  }
+}
+
+.popup-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 20px;
+  height: 40vw;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .popup-view {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+
+.rules-img {
+  width: 100%;
+  height: 90%;
+  margin-top: auto;
+  border-radius: 4px;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-top: 2%;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-family: 'Bree Serif';
+  font-size: 26px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .item-name {
+    font-size: 14px;
+  }
+}
+
+.score-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 6px;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .score-card {
+    width: 25%;
+  }
+}
+
+.score-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #223a5f;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .score-heading {
+    font-size: 16px;
+  }
+}
+
+.result-score-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 6px;
+  font-size: 42px;
+  margin-bottom: 8px;
+
+  color: #223a5f;
+}
+
+@media screen and (max-width: 576px) {
+  .result-score-text {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
